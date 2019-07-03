@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function doiMetSangFeet(met) {
+        f = 3.279 * met;
+        return f;
+    }
+    function doiFeetSangMet(feet) {
+        m = 0.305 * feet;
+        return m;
+    }
+  let num1 = doiMetSangFeet(prompt("nhập vào met: "));
+    let num2 = doiFeetSangMet(prompt("nhap vao feet: "));
+
+    document.write("mét đổi sang feet là: " + num1 + "<br>");
+    document.write("đổi feet sang met là: " + num2);
+</script>
+</body>
+</html>
